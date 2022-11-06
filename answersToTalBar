@@ -1,0 +1,13 @@
+1. The information stored in the TB is the ID of the current table, the place in the table, the question and the answer.
+
+2. I didn't quite understood the quiestion, but i think that the information that isn't stored in the table is the buildibg of the crossword itself, I think that the visual represantation of the crossword doesn't represent the visual.
+
+3. ... 
+
+4. 
+CREATE TABLE table (TableID INTEGER, AcrossOrDown TEXT, Question TEXT, answer TEXT)
+SELECT Question, Answer, ID FROM table
+WHERE TableID = someFuncThatGetsId()
+GROUPBY AcrossOrDown
+
+# tal, i wanted to say, that i think that i could use some explantion from a human and not from a computar about sql and database's in general, I don't feel that the knowladge that I got from completing the tasks is orgenized.
